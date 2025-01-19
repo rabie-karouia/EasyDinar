@@ -1,0 +1,26 @@
+.auth-container {
+  display: flex; /* Use flexbox to align items side by side */
+  justify-content: center; /* Center the forms horizontally */
+  align-items: flex-start; /* Align forms at the top */
+  gap: 20px; /* Space between forms */
+  padding: 20px; /* Add some padding around the container */
+  background-color: #90aead; /* Add a light gray background color */
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  box-sizing: border-box; /* Include padding and border in height/width calculation */
+}
+
+.form-container {
+  flex: 1; /* Allow forms to grow equally */
+  max-width: 400px; /* Set a maximum width for each form */
+  background-color: #90aead; /* Make the form background white */
+  padding: 20px; /* Add some padding inside the forms */
+  border-radius: 8px; /* Rounded corners for forms */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for forms */
+}
+
+@media (max-width: 768px) {
+  .auth-container {
+      flex-direction: column; /* Stack forms vertically on small screens */
+      gap: 10px; /* Reduce gap between stacked forms */
+  }
+}
