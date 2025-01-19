@@ -1,3 +1,6 @@
+Backend runs on localhost:8000
+Frontend runs on localhost:5173
+
 DATABASE CONNECTION PROCESS :
   1- create a new database named banking_db.
   2- import the self-contained database file from the project folder to your database.
